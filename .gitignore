@@ -1,0 +1,26 @@
+# Environment - NEVER commit
+.env
+
+# Data - too large for git
+data/
+
+# Models - use MLflow instead
+models/
+
+# MLflow
+mlruns/
+
+# Monitoring reports
+monitoring/
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Anaconda
+.conda/
+
